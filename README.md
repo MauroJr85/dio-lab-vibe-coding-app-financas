@@ -2,6 +2,9 @@
 
 Projeto desenvolvido para o desafio **"Criando um APP de Organização de Finanças Pessoais com Vibe Coding"**, da **DIO**.
 
+### [🌐 Acesse o aplicativo](https://saldo-com-prop.lovable.app/)
+
+
 ## 📌 Sobre o projeto
 
 O **Finanças em Dia** é um aplicativo de organização financeira voltado para iniciantes.
