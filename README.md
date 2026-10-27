@@ -21,56 +21,48 @@ O projeto foi concebido como um **MVP (Produto Mínimo Viável)**, utilizando a 
 O prompt abaixo foi elaborado com auxílio do **ChatGPT** e utilizado no **Lovable** para orientar a criação do aplicativo.
 
 ```markdown
-### Objetivo
+Crie um aplicativo web responsivo chamado **Finanças em Dia**, em português brasileiro, para iniciantes em organização financeira.
 
-Criar um aplicativo web responsivo chamado **Finanças em Dia**, em português brasileiro, voltado para iniciantes em organização financeira.
+**Objetivo:** facilitar o controle de receitas e despesas por conversa ou importação de faturas de cartão de crédito em PDF.
 
-Facilitar o controle de receitas e despesas por conversa ou importação de faturas de cartão de crédito em PDF.
-
-### Funcionalidades solicitadas
+### Funcionalidades
 
 **1. Painel financeiro**
-
 - Exibir receitas, despesas, saldo mensal e últimas transações.
-- Mostrar a distribuição das despesas por categoria.
+- Mostrar distribuição das despesas por categoria.
 - Atualizar os indicadores automaticamente.
 - Permitir selecionar o mês de referência.
 
 **2. Registro por conversa**
-
-- Disponibilizar um campo semelhante a um chat.
+- Campo semelhante a um chat.
 - Interpretar frases como "Recebi R$ 3.000 de salário" e "Gastei R$ 80 no mercado".
 - Identificar valor, descrição, tipo e categoria.
-- Permitir confirmar ou corrigir os dados antes de salvar.
+- Permitir confirmar ou corrigir antes de salvar.
 - Utilizar regras simples, sem APIs externas de IA.
 
 **3. Importação de fatura PDF**
-
-- Criar uma área para upload de faturas de cartão de crédito em PDF.
-- Utilizar `pdfjs-dist` para extrair texto localmente no navegador.
+- Criar área para upload de faturas de cartão de crédito em PDF.
+- Utilizar pdfjs-dist para extrair texto localmente no navegador.
 - Identificar transações contendo data, estabelecimento e valor.
 - Sugerir categorias automaticamente por palavras-chave.
-- Exibir os lançamentos extraídos em uma tabela editável.
+- Exibir os lançamentos extraídos em tabela editável.
 - Permitir corrigir, excluir ou confirmar individualmente os itens.
 - Importar os itens selecionados somente após confirmação.
 - Evitar duplicidades de lançamentos.
-- Não contabilizar o total da fatura, pagamentos, estornos ou créditos como novas compras.
+- Não contabilizar total da fatura, pagamentos, estornos ou créditos como novas compras.
 - Registrar as despesas no mês de referência da fatura, permitindo correção pelo usuário.
 - Informar claramente quando não for possível interpretar o arquivo, sem inventar transações.
-- Aceitar apenas PDFs com texto selecionável nesta versão, sem implementar OCR.
+- Nesta versão, aceitar apenas PDFs com texto selecionável. Não implementar OCR.
 
 **4. Histórico**
-
 - Listar lançamentos com data, descrição, categoria, valor e origem (manual ou PDF).
 - Permitir filtrar e excluir lançamentos.
 
 **5. Meta de economia**
-
-- Permitir definir uma meta mensal.
-- Exibir o progresso visual considerando o saldo mensal, sem ultrapassar 100% na barra.
+- Permitir definir meta mensal.
+- Exibir progresso visual considerando o saldo mensal, sem ultrapassar 100% na barra.
 
 ### Interface
-
 - Design moderno, limpo, intuitivo e profissional.
 - Cores predominantes: verde, branco e cinza-claro.
 - Navegação: Painel, Registrar, Importar Fatura, Histórico e Metas.
@@ -79,20 +71,15 @@ Facilitar o controle de receitas e despesas por conversa ou importação de fatu
 - Dados fictícios iniciais identificados como demonstração.
 
 ### Requisitos técnicos
-
-- **Tecnologias:** React, TypeScript e Tailwind CSS.
-- **Persistência:** `localStorage`.
-- **Processamento de PDFs:** exclusivamente no navegador.
-- Não enviar nem armazenar arquivos PDF em servidores.
+- React, TypeScript e Tailwind CSS.
+- Persistência no localStorage.
+- Processamento do PDF exclusivamente no navegador.
+- Não enviar nem armazenar o arquivo PDF em servidores.
 - Sem autenticação, backend, banco de dados, integrações bancárias ou APIs pagas.
 - Não criar funcionalidades extras.
 - Todos os botões principais devem funcionar.
 
-### Prioridade de implementação
-
-Entregar um MVP funcional, visualmente atraente e adequado para apresentação no desafio da DIO, com foco especial no fluxo de importação e conferência de faturas PDF.
-
-Implementar diretamente, sem etapas adicionais de planejamento.
+**Prioridade:** entregar um MVP funcional, visualmente atraente e adequado para apresentação no desafio da DIO, com foco especial no fluxo de importação e conferência de faturas PDF. Implemente diretamente, sem etapas adicionais de planejamento.
 ```
 
 ## ⚙️ Funcionalidades propostas
