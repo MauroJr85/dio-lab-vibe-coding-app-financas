@@ -20,6 +20,7 @@ O projeto foi concebido como um **MVP (Produto Mínimo Viável)**, utilizando a 
 
 O prompt abaixo foi elaborado com auxílio do **ChatGPT** e utilizado no **Lovable** para orientar a criação do aplicativo.
 
+```markdown
 ### Objetivo
 
 Criar um aplicativo web responsivo chamado **Finanças em Dia**, em português brasileiro, voltado para iniciantes em organização financeira.
@@ -92,6 +93,7 @@ Facilitar o controle de receitas e despesas por conversa ou importação de fatu
 Entregar um MVP funcional, visualmente atraente e adequado para apresentação no desafio da DIO, com foco especial no fluxo de importação e conferência de faturas PDF.
 
 Implementar diretamente, sem etapas adicionais de planejamento.
+```
 
 ## ⚙️ Funcionalidades propostas
 
