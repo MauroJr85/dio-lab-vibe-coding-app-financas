@@ -121,3 +121,13 @@ A limitação de créditos do Lovable impediu a inclusão de novas funcionalidad
 ### 💡 O que aprendi sobre conversar com IAs?
 
 Aprendi que toda interação com inteligência artificial deve partir de objetivos claros e bem definidos, para que os resultados estejam alinhados ao que se pretende alcançar.
+
+### 🤖 Inteligência Artificial no desenvolvimento
+
+Este projeto foi desenvolvido como atividade educacional do desafio de Vibe Coding da DIO, com utilização de ferramentas de inteligência artificial.
+
+A implementação teve como referência o conteúdo das aulas e o repositório disponibilizado no curso.
+
+Minha participação envolveu a definição e adaptação das funcionalidades, elaboração de instruções para as ferramentas de IA, acompanhamento do desenvolvimento, testes e ajustes na aplicação.
+
+O projeto tem finalidade exclusivamente educacional, sem exploração comercial.
